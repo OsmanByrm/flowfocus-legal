@@ -1,5 +1,6 @@
 {
   "routes": [
+    { "src": "/app-ads.txt", "dest": "/app-ads.txt" },
     { "src": "/privacy-policy", "dest": "/" },
     { "src": "/terms-of-service", "dest": "/" },
     { "src": "^/static/(.*)", "dest": "/static/$1" },
