@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "src": "/privacy-policy", "dest": "/" },
+    { "src": "/terms-of-service", "dest": "/" },
+    { "src": "^/static/(.*)", "dest": "/static/$1" },
+    { "src": ".*", "dest": "/index.html" }
+  ]
+} 
