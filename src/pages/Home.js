@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logoImage from '../logo/AppIcon.png';
 
 function Home() {
   return (
     <div className="container">
       <div className="content">
         <header>
-          <img src="/logo/AppIcon.png" alt="Flow Focus App Logo" className="logo" />
+          <img src={logoImage} alt="Flow Focus App Logo" className="logo" />
           <h1>Flow Focus App</h1>
           <p className="subtitle">Boost your productivity with focused work sessions</p>
         </header>

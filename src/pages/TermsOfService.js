@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logoImage from '../logo/AppIcon.png';
 
 function TermsOfService() {
   return (
@@ -7,7 +8,7 @@ function TermsOfService() {
       <div className="content">
         <header>
           <Link to="/">
-            <img src="/logo/AppIcon.png" alt="Flow Focus App Logo" className="logo" />
+            <img src={logoImage} alt="Flow Focus App Logo" className="logo" />
           </Link>
           <h1>Terms of Service</h1>
           <Link to="/" className="button">← Back to Home</Link>
